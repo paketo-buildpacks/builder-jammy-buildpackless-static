@@ -4,7 +4,7 @@ description = "Static base image (Ubuntu Jammy Jellyfish build image, distroless
   version = "0.18.2"
 
 [stack]
-  build-image = "docker.io/paketobuildpacks/build-jammy-static:0.0.70"
+  build-image = "docker.io/paketobuildpacks/build-jammy-static:0.0.71"
   id = "io.buildpacks.stacks.jammy.static"
   run-image = "index.docker.io/paketobuildpacks/run-jammy-static:latest"
   run-image-mirrors = []
