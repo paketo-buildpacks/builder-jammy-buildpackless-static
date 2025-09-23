@@ -6,13 +6,13 @@ description = "Static base image (Ubuntu Jammy Jellyfish build image, distroless
 [lifecycle]
   version = "0.20.14"
 
+[run]
+
+  [[run.images]]
+    image = "docker.io/paketobuildpacks/run-jammy-static:latest"
+
 [stack]
   id = "io.buildpacks.stacks.jammy.static"
-
-[run]
-  [[run.images]]
-    image = "index.docker.io/paketobuildpacks/run-jammy-static:latest"
-
 
 [[targets]]
   arch = "amd64"
