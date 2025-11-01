@@ -1,10 +1,10 @@
 description = "Static base image (Ubuntu Jammy Jellyfish build image, distroless-like run image) with no buildpacks included. To use, specify buildpacks at build time."
 
 [build]
-  image = "docker.io/paketobuildpacks/build-jammy-static:0.0.159"
+  image = "docker.io/paketobuildpacks/build-jammy-static:0.0.160"
 
 [lifecycle]
-  version = "0.20.14"
+  version = "0.20.16"
 
 [run]
 
