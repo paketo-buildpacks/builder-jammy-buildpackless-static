@@ -2,11 +2,10 @@ module github.com/paketo-buildpacks/builder-jammy-buildpackless-tiny
 
 go 1.25.6
 
-require github.com/onsi/gomega v1.39.0
+require github.com/onsi/gomega v1.39.1
 
 require (
 	github.com/google/go-cmp v0.7.0 // indirect
-	github.com/google/pprof v0.0.0-20250820193118-f64d9cf942d6 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
 	github.com/rogpeppe/go-internal v1.14.1 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
