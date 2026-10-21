@@ -4,7 +4,7 @@ description = "Static base image (Ubuntu Jammy Jellyfish build image, distroless
   image = "docker.io/paketobuildpacks/build-jammy-static:0.0.264"
 
 [lifecycle]
-  version = "0.21.24"
+  version = "0.21.25"
 
 [run]
 
